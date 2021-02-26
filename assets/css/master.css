@@ -3,3 +3,21 @@
   padding: 0;
   box-sizing: border-box;
 }
+.container {
+  text-align: center;
+}
+
+#nome, #cognome, #col-preferito, #riepilogo {
+  color: #000000;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 50px;
+}
+
+#nome, #cognome, #col-preferito {
+  font-weight: 300;
+}
+
+#riepilogo {
+  font-weight: 400;
+}
