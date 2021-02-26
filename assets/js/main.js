@@ -18,7 +18,7 @@ var colore = prompt("Qual è il tuo colore preferito?")
 
 // console.log(colore);
 
-document.getElementById('col-preferito').innerHTML = colore;
+document.getElementById('col-preferito').innerHTML = "Il tuo colore preferito è il:" + " " + colore;
 
 //Variabile riepilogativa
 var resoconto = nome + cognome + colore + "21";
